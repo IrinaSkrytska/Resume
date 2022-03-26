@@ -29,6 +29,7 @@
 }
 .my__main-contacts {
 	display: flex;
+	flex-direction: column;
 	@include respond-to(dekstop) {
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -41,8 +42,9 @@
 	font-weight: bold;
 	font-size: 10px;
 	line-height: 1.2;
+	margin-bottom: 10px;
+	margin-left: 10px;
 	@include respond-to(dekstop) {
-		margin-bottom: 10px;
 		margin-left: 20px;
 		font-weight: bold;
 		font-size: 14px;
