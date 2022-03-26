@@ -139,6 +139,10 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .my__main-contacts {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -149,9 +153,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: bold;
   font-size: 10px;
   line-height: 1.2;
@@ -160,6 +164,9 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .my-contacts {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     margin-left: 20px;
     font-weight: bold;
     font-size: 14px;
@@ -167,10 +174,8 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .my__communication {
-    margin-left: 10px;
-  }
+.my__communication {
+  margin-left: 10px;
 }
 
 .contact {
@@ -248,6 +253,9 @@ body {
   }
 }
 
+.my__social-networks:not(:first-child) {
+  margin-left: 30px;
+}
 @media screen and (min-width: 1200px) {
   .my__social-networks:not(:first-child) {
     margin-left: 70px;
