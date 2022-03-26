@@ -11,6 +11,8 @@
       <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
     	<link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
 		<link rel="stylesheet" href="./css/main.min.css" />
+		<link type="image/x-icon" href="/images/favicon.png" rel="shortcut icon" />
+    <link type="Image/x-icon" href="/images/favicon.png" rel="icon" />
 	</head>
 	<body>
 		<!--Header of the site-->
@@ -19,35 +21,56 @@
                 <h1 class="page-header__title">IRYNA SKRYTSKA</h1>
 		</header>
         <!--Networks-->
-        <div class="my-portfolio">
+        <div class="container my-networks-card">
         <section class="my-info">
         <li class="my__main-links">
-        <img src="./images/me.jpeg" width="350px" height="450px">
+        <img class="my-photo" src="./images/me.jpeg">
+		<div class= "my-contacts">
+		<h2>Contacts:</h2>
+			<ul class="my__main-contacts">
+						<li class="my__communication ">
+							<a href="mailto:irinaskritska77@gmail.com" class="contact">
+								<svg class="page-header__contact-icon" >
+									<use href="./images/sprite.svg#icon-envelope"></use>
+								</svg>
+								irinaskritska77@gmail.com
+							</a>
+						</li>
+						<li class="my__communication">
+							<a href="tel:+48725431780" class="contact">
+								<svg class="page-header__contact-icon">
+									<use href="./images/sprite.svg#icon-phone"></use>
+								</svg>
+							+48725431780
+							</a>
+						</li>
+					</ul>
+				</div>
       <ul class="my__social-links">
 		<li class="my__social-networks">
-		 <a class="my__link" href="">
-		    <svg class="networks" width="25" height="25">
+		 <a class="my__link" href="https://instagram.com/i.skritskaya?utm_medium=copy_link">
+		    <svg class="network  networks__instagram">
 				<use href="images/sprite.svg#instagram"></use>
 	       </svg>
           </a>
        </li>
 	    <li class="my__social-networks">
-		   <a class="my__link" href="">
-		    <svg class="networks" width="25" height="25">
+		   <a class="my__link" href="https://t.me/iskritskaya">
+		    <svg class="network  networks__telegram">
 				<use href="images/sprite.svg#telegram"></use>
 			</svg>
 		</a>
        </li>
     	<li class="my__social-networks">
-		  <a class="my__link" href="">
-		    <svg class="networks" width="25" height="25">
+		  <a class="my__link" href="https://www.facebook.com/profile.php?id=100012819038868">
+		    <svg class="network networks__facebook">
 		    	<use href="images/sprite.svg#facebook"></use>
 			</svg>
 		  </a>
 		</li>
 	     <li class="my__social-networks">
 		   <a class="my__link" href="https://github.com/IrinaSkrytska">
-			 <svg class="networks" width="25" height="25">
+			 <svg class="network networks__github">
 				 <use href="images/sprite.svg#github"></use>
 			  </svg>
 		  </a>
@@ -55,27 +78,66 @@
 		</ul>
         </li> 
  </section> 
-     <!--About me--><div class="description">
+       <div class="about-me">
+     <!--Personal information-->
+			 <section class="section">
+		 	<li>
+                <h2 class="headings">PERSONAL INFORMATION</h2>
+                <p class="about-me__description">Date of birth: 27.12.2002</p>
+				<p class="about-me__description">Address: Kyiv</p>
+			</li>
+	 </section>
+	 <!--About me-->
 			<section class="section">
-                <h2 class="section-about-me">ABOUT ME</h2>
-                <p></p>
+				<li>
+                <h2 class="headings">ABOUT ME</h2>
+                <p class="about-me__description" >I am an outgoing, purposeful person, who can successfully work in a team environment, as well as independently. 
+					I am high-motivated and have a desire to develope, able to acquire new skills quickly.
+				</p>
+			</li>
                 </section>
         <!--Education-->
 			<section class="section section-education">
-             <h2 class="">EDUCATION</h2>
+             <h2 class="headings">EDUCATION</h2>
+			 <p class="about-me__description">KYIV NATIONAL UNIVERSITY OF TRADE AND ECONOMY </p>
+			 <p class="about-me__description" > Faculty of finances, banking and insurance </p>
+			 <p class="about-me__description"> 2019-2023</p>
+			 <p class="about-me__description">Student of GOIT school, course "Fullstack Developer"</p>
             </section>
        <!--Portfolio-->
 			<section class="section section-portfolio">
-				<h2 class="">PORTFOLIO</h2>
+				<h2 class="headings">PORTFOLIO</h2>
+				<ul class="my-projects__example">
+				<li>
+					<p class="about-me__description" >Personal project</p>
+					<a class="my-project__WebStudio" href="https://irinaskrytska.github.io/WebStudio/">WebStudio</a>
+			   </li>
+				<li>
+					<p class="about-me__description">Group project - Teamlead</p>
+					<a class="my-project__Ice-cream" href="https://irinaskrytska.github.io/goit-project/index.html">Ice-cream</a>
+				</li>
+			</ul>
        <!--Tech Skills-->
 			<section class="section section-portfolio">
-				<h2 class="">TECH SKILLS</h2>
+				<h2 class="headings">TECH SKILLS</h2>
+				<li>
+					<p class="about-me__description" >HTML/CSS</p>
+					<p class="about-me__description">Javascript (in progress)</p>
+					<p class="about-me__description">English C1</p>
+					<p class="about-me__description" >German  B1</p>
+				</li>
        <!--Soft Skills-->
 			<section class="section section-portfolio">
-				<h2 class="">SOFT SKILLS</h2>
-            </div></div>
-            <!--Footer-->
-		<footer class="footer">	
-        </footer>
+				<h2 class="headings">SOFT SKILLS</h2>
+				<li>
+					<p class="about-me__description" >Agile</p>
+					<p class="about-me__description">Scrum</p>
+					<p class="about-me__description" >Teamwork</p>
+					<p class="about-me__description">Abillity to adapt quickly</p>
+					<p class="about-me__description">Responsibility</p>
+					<p class="about-me__description" >Communicabillity</p>
+				</li>
+            </div>
+		</div>
 	</body>
 </html>
