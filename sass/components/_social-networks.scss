@@ -16,6 +16,7 @@
 }
 .my__main-links {
 	background-color: #edefee;
+	margin-left: 10px;
 	@include respond-to(dekstop) {
 		margin-left: 100px;
 	}
