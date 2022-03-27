@@ -253,7 +253,7 @@ section {
 @media screen and (min-width: 1200px) {
   .my-info {
     position: absolute;
-    top: 250%;
+    top: 150%;
     left: 0;
   }
 }

@@ -113,7 +113,7 @@ section {
 	align-items: center;
 	@include respond-to(dekstop) {
 		position: absolute;
-		top: 250%;
+		top: 150%;
 		left: 0;
 	}
 }
