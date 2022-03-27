@@ -30,7 +30,6 @@ body {
   background-image: -webkit-gradient(linear, left top, right top, from(#a2a49f), color-stop(#e0d0c4), to(#f1dac4));
   background-image: -o-linear-gradient(left, #a2a49f, #e0d0c4, #f1dac4);
   background-image: linear-gradient(90deg, #a2a49f, #e0d0c4, #f1dac4);
-  position: relative;
 }
 
 .container {
@@ -61,7 +60,8 @@ body {
   margin-bottom: -1px;
 }
 
-.page-header__container {
+.page-header__title {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,7 +71,7 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
-  .page-header__container {
+  .page-header__title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -214,18 +214,16 @@ section {
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 1200px) {
-  .my-project__WebStudio,
+.my-project__WebStudio,
 .my-project__Ice-cream {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.9;
-    color: #212121;
-    background-color: #edefee;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px 4px 4px 4px;
-  }
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #212121;
+  background-color: #edefee;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px 4px 4px 4px;
 }
 
 .networks__telegram {
@@ -283,9 +281,16 @@ section {
   height: 44px;
   border-radius: 50%;
   background-color: #d8bfd8;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -o-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 200ms linear 100ms;
+  transition: -webkit-transform 200ms linear 100ms;
+  -o-transition: transform 200ms linear 100ms;
+  transition: transform 200ms linear 100ms;
+  transition: transform 200ms linear 100ms, -webkit-transform 200ms linear 100ms;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .my-photo {
