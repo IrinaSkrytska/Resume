@@ -61,24 +61,17 @@ body {
   margin-bottom: -1px;
 }
 
-.page-header__container {
-  margin-top: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
 @media screen and (min-width: 1200px) {
   .page-header__container {
-    margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -100,14 +93,15 @@ body {
   }
 }
 
-.my-networks-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 40px;
+@media screen and (min-width: 1200px) {
+  .my-networks-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .my__main-links {
@@ -128,17 +122,11 @@ body {
   }
 }
 
-.my__main-contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
 @media screen and (min-width: 1200px) {
   .my__main-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -185,8 +173,8 @@ body {
 .headings {
   margin-bottom: 10px;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 12px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -245,6 +233,9 @@ body {
   fill: #171515;
 }
 
+.my-info {
+  position: absolute;
+}
 @media screen and (min-width: 1200px) {
   .my-info {
     position: absolute;
@@ -263,8 +254,8 @@ body {
 }
 
 .my-photo {
-  width: 250px;
-  height: 320px;
+  width: 220px;
+  height: 280px;
 }
 @media screen and (min-width: 1200px) {
   .my-photo {

@@ -9,9 +9,10 @@
 	}
 }
 .my-networks-card {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 40px;
+	@include respond-to(dekstop) {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 .my__main-links {
 	background-color: #edefee;
@@ -28,9 +29,8 @@
 	}
 }
 .my__main-contacts {
-	display: flex;
-	flex-direction: column;
 	@include respond-to(dekstop) {
+		display: flex;
 		flex-direction: row;
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -62,8 +62,8 @@
 .headings {
 	margin-bottom: 10px;
 	font-weight: bold;
-	font-size: 16px;
-	line-height: 1.4;
+	font-size: 12px;
+	line-height: 1.2;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: #212121;
@@ -111,6 +111,7 @@ section {
 	fill: #171515;
 }
 .my-info {
+	position: absolute;
 	@include respond-to(dekstop) {
 		position: absolute;
 		top: 250%;
@@ -124,8 +125,8 @@ section {
 	}
 }
 .my-photo {
-	width: 250px;
-	height: 320px;
+	width: 220px;
+	height: 280px;
 	@include respond-to(dekstop) {
 		width: 450px;
 		height: 550px;
