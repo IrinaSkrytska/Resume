@@ -61,6 +61,15 @@ body {
   margin-bottom: -1px;
 }
 
+.page-header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
 @media screen and (min-width: 1200px) {
   .page-header__container {
     display: -webkit-box;
@@ -234,7 +243,13 @@ body {
 }
 
 .my-info {
-  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
   .my-info {

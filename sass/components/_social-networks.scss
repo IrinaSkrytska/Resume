@@ -111,7 +111,9 @@ section {
 	fill: #171515;
 }
 .my-info {
-	position: absolute;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
 	@include respond-to(dekstop) {
 		position: absolute;
 		top: 250%;
