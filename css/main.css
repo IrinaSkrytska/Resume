@@ -281,8 +281,8 @@ section {
 }
 
 .my-photo {
-  width: 220px;
-  height: 280px;
+  width: 240px;
+  height: 300px;
 }
 @media screen and (min-width: 1200px) {
   .my-photo {

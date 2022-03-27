@@ -133,8 +133,8 @@ section {
 	}
 }
 .my-photo {
-	width: 220px;
-	height: 280px;
+	width: 240px;
+	height: 300px;
 	@include respond-to(dekstop) {
 		width: 450px;
 		height: 550px;
