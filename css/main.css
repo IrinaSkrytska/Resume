@@ -297,7 +297,7 @@ section {
 }
 
 @media screen and (min-width: 1200px) {
-  .soft-skills {
+  .soft-skills-end {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -308,6 +308,7 @@ section {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    margin-right: 3%;
   }
 }
 
@@ -319,6 +320,12 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .soft-skills-beginning {
+    margin-left: 3%;
   }
 }
 

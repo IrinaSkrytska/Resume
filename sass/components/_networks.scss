@@ -117,16 +117,22 @@
 		height: 30px;
 	}
 }
-.soft-skills {
+.soft-skills-end {
 	@include respond-to(dekstop) {
 		display: flex;
 		flex-direction: column;
 		align-items: baseline;
+		margin-right: 3%;
 	}
 }
 .soft-skills-description {
 	@include respond-to(dekstop) {
 		display: flex;
 		justify-content: space-between;
+	}
+}
+.soft-skills-beginning {
+	@include respond-to(dekstop) {
+		margin-left: 3%;
 	}
 }
