@@ -140,7 +140,7 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .my__main-links {
-    margin-left: 100px;
+    margin-left: 10%;
   }
 }
 
