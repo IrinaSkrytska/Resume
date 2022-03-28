@@ -70,7 +70,7 @@
 	align-items: center;
 	@include respond-to(dekstop) {
 		position: absolute;
-		top: 40%;
+		top: 50%;
 		left: 5%;
 	}
 }
@@ -115,5 +115,18 @@
 	@include respond-to(dekstop) {
 		width: 30px;
 		height: 30px;
+	}
+}
+.soft-skills {
+	@include respond-to(dekstop) {
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+	}
+}
+.soft-skills-description {
+	@include respond-to(dekstop) {
+		display: flex;
+		justify-content: space-between;
 	}
 }
