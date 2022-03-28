@@ -60,6 +60,28 @@ body {
   margin-bottom: -1px;
 }
 
+section {
+  margin-bottom: 10px;
+}
+
+.headings {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+@media screen and (min-width: 1200px) {
+  .headings {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
 .page-header__title {
   position: relative;
   display: -webkit-box;
@@ -123,15 +145,6 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .about-me {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    margin-top: 50px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   .my__main-contacts {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -160,6 +173,9 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .my-contacts {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
@@ -176,53 +192,6 @@ body {
 
 .contact {
   color: black;
-}
-
-.headings {
-  margin-bottom: 10px;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-@media screen and (min-width: 1200px) {
-  .headings {
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
-.about-me__description {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.4;
-}
-@media screen and (min-width: 1200px) {
-  .about-me__description {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.9;
-  }
-}
-
-section {
-  margin-bottom: 10px;
-}
-
-.my-project__WebStudio,
-.my-project__Ice-cream {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
-  color: #212121;
-  background-color: #edefee;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px 4px 4px 4px;
 }
 
 .networks__telegram {
@@ -252,7 +221,7 @@ section {
 @media screen and (min-width: 1200px) {
   .my-info {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 0;
   }
 }
@@ -303,12 +272,12 @@ section {
   }
 }
 
-.page-header__contact-icon {
+.contact-icon {
   width: 12px;
   height: 8px;
 }
 @media screen and (min-width: 1200px) {
-  .page-header__contact-icon {
+  .contact-icon {
     width: 16px;
     height: 12px;
   }
@@ -322,5 +291,45 @@ section {
   .network {
     width: 30px;
     height: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-me {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+  }
+}
+
+.about-me__description {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.4;
+}
+@media screen and (min-width: 1200px) {
+  .about-me__description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
+
+.my-project__WebStudio,
+.my-project__Ice-cream {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #212121;
+  background-color: #edefee;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px 4px 4px 4px;
+}
+@media screen and (min-width: 1200px) {
+  .my-project__WebStudio,
+.my-project__Ice-cream {
+    font-size: 16px;
+    line-height: 1.9;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -25,3 +25,21 @@ body {
 	height: 1px;
 	margin-bottom: -1px;
 }
+section {
+	margin-bottom: 10px;
+}
+.headings {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	@include respond-to(dekstop) {
+		margin-bottom: 10px;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 24px;
+	}
+}
