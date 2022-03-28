@@ -16,9 +16,6 @@
 }
 .my__main-links {
 	background-color: #edefee;
-	@include respond-to(dekstop) {
-		margin-left: 10%;
-	}
 }
 
 .my__main-contacts {
