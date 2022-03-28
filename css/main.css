@@ -179,7 +179,7 @@ section {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.8;
@@ -187,7 +187,14 @@ section {
 }
 
 .my__communication {
-  margin-left: 10px;
+  margin-left: 5px;
+}
+@media screen and (min-width: 1200px) {
+  .my__communication {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.4;
+  }
 }
 
 .contact {
@@ -278,8 +285,8 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .contact-icon {
-    width: 16px;
-    height: 12px;
+    width: 20px;
+    height: 16px;
   }
 }
 
@@ -298,7 +305,9 @@ section {
   .about-me {
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 40%;
+    background-color: rgba(255, 245, 238, 0.2);
+    border-radius: 2%;
   }
 }
 
@@ -309,6 +318,7 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .about-me__description {
+    margin-left: 3%;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
@@ -329,6 +339,7 @@ section {
 @media screen and (min-width: 1200px) {
   .my-project__WebStudio,
 .my-project__Ice-cream {
+    margin-left: 3%;
     font-size: 16px;
     line-height: 1.9;
   }
