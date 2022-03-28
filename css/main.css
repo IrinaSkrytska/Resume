@@ -229,7 +229,7 @@ section {
   .my-info {
     position: absolute;
     top: 40%;
-    left: 0;
+    left: 10%;
   }
 }
 
@@ -304,7 +304,7 @@ section {
 @media screen and (min-width: 1200px) {
   .about-me {
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 38%;
     background-color: rgba(255, 245, 238, 0.2);
     border-radius: 2%;
