@@ -183,7 +183,6 @@ section {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    margin-left: 10px;
     font-weight: bold;
     font-size: 10px;
     line-height: 1.8;
@@ -278,8 +277,8 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .my-photo {
-    width: 350px;
-    height: 420px;
+    width: 280px;
+    height: 320px;
   }
 }
 

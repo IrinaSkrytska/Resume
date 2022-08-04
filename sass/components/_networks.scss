@@ -37,7 +37,7 @@
 	@include respond-to(dekstop) {
 		justify-content: center;
 		align-items: baseline;
-		margin-left: 10px;
+
 		font-weight: bold;
 		font-size: 10px;
 		line-height: 1.8;
@@ -97,8 +97,8 @@
 	width: 240px;
 	height: 300px;
 	@include respond-to(dekstop) {
-		width: 350px;
-		height: 420px;
+		width: 280px;
+		height: 320px;
 	}
 }
 .contact-icon {
