@@ -100,10 +100,19 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 60px;
     display: flex;
     justify-content: center;
   }
+}
+
+.page-header__sub__title {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .my__social-links {
@@ -176,7 +185,7 @@ section {
             align-items: baseline;
     margin-left: 10px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 1.8;
   }
 }
@@ -187,7 +196,7 @@ section {
 @media screen and (min-width: 1200px) {
   .my__communication {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.4;
   }
 }
@@ -223,7 +232,7 @@ section {
 @media screen and (min-width: 1200px) {
   .my-info {
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 5%;
   }
 }
@@ -269,19 +278,19 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .my-photo {
-    width: 450px;
-    height: 550px;
+    width: 350px;
+    height: 420px;
   }
 }
 
 .contact-icon {
-  width: 12px;
-  height: 8px;
+  width: 10px;
+  height: 6px;
 }
 @media screen and (min-width: 1200px) {
   .contact-icon {
-    width: 20px;
-    height: 16px;
+    width: 14px;
+    height: 10px;
   }
 }
 
@@ -291,8 +300,8 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .network {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -332,7 +341,7 @@ section {
 @media screen and (min-width: 1200px) {
   .about-me {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 40%;
     background-color: rgba(255, 245, 238, 0.2);
     border-radius: 2%;

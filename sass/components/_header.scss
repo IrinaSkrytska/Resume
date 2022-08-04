@@ -6,8 +6,12 @@
 	@include respond-to(dekstop) {
 		display: flex;
 		justify-content: center;
-		margin-top: 60px;
 		display: flex;
 		justify-content: center;
 	}
+}
+.page-header__sub__title {
+	position: relative;
+	display: flex;
+	justify-content: center;
 }
